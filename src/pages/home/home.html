@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="orange">
     <ion-title class="lol">
       Court counter
     </ion-title>
@@ -10,18 +10,18 @@
     <div class="left">
         <h1>Team A</h1>
         <h2>{{teamA}}</h2>
-        <button ion-button class="button" block (click)= "onClickA()">+3point</button>
-        <button ion-button class="button" block (click)= "onTwoA()">+2point</button>
-        <button ion-button class="button" block (click)= "onThrowA()">freethrow</button>
+        <button ion-button  class="button" block (click)= "onClickA()" color="orange">+3point</button>
+        <button ion-button class="button" block (click)= "onTwoA()" color="orange">+2point</button>
+        <button ion-button class="button" block (click)= "onThrowA()" color="orange">freethrow</button>
     </div>
     <div class="right">
         <h1>Team B</h1>
         <h2>{{teamB}}</h2>
-        <button ion-button class="button" block (click)= "onClickB()">+3point</button>
-        <button ion-button class="button" block (click)= "onTwoB()">+2point</button>
-        <button ion-button class="button" block (click)= "onThrowB()">freethrow</button>
+        <button ion-button class="button" block (click)= "onClickB()" color="orange">+3point</button>
+        <button ion-button class="button" block (click)= "onTwoB()" color="orange">+2point</button>
+        <button ion-button class="button" block (click)= "onThrowB()" color="orange">freethrow</button>
     </div>  
 
      
-  <button ion-button class="nav" block (click)= "onReset()">Reset</button>
+  <button ion-button class="nav" block (click)= "onReset()" color="orange">Reset</button>
 </ion-content>
